@@ -13,6 +13,19 @@ body {
   height: 100vh;
   margin: 0;
   }
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
 #pageHeader {
   grid-area: header;
 }
@@ -30,7 +43,7 @@ body {
   }
 header, footer, article, nav, div {
   padding: 20px;
-  background: lightblue;
+  background: gold;
 }
 </style>
 <body>
