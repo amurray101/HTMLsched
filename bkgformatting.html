@@ -4,8 +4,16 @@
 
   <head> 
     <title> Schedulete </title>
+    
+    <!-- javaScript experiment --> 
+    <script type="text/javascript">
+      function sayHello() {
+        alert("Hello World")
+      }
+    </script>
   </head>
 
+  <!-- internal style sheet -->
   <style>
     body {
       background-color: #FDFEFE;
@@ -23,16 +31,19 @@
   <h1>
     <font face = "Verdana" size = 20px color = #154360> Schedulete </font>
   </h1>
-  <h2>
-    <font face = "Verdana" size = 8 color = #154360> The easiest way to create competition schedules </font>
-  </h2>
+  <h4>
+    <font face = "Verdana" color = #154360> The easiest way to create competition schedules </font>
+  </h4>
 <br>
 
+<body>
+  
+  
+  <!-- your availability -->
   <h3>
     <font face = "Verdana" size = 4px color = #154360> Your Availabiliy </font>
   </h3>
-  
-  <body>
+ 
   <ul>
     <li>
       <font face = "Verdana" size = 2px color = #154360> August 29th </font> 
@@ -46,6 +57,7 @@
     
 <br>
 <br>
+  <!-- LIU Brooklyn availability -->
     <h3>
       <font face = "Verdana" size = 4px color = #154360> LIU Brooklyn's Availability </font>
    </h3>
@@ -61,15 +73,5 @@
     </ul>
   
   </body>
-  
-  var letter = document.getElementById("myInput").value;
-  var text;
-  
-  <!-- if the letter is c -->
-  if (letter == "c") {
-    text = "yes";
-  } else {
-    text = 'no";
-  }
     
 </html>
